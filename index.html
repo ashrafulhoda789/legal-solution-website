@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="flex justify-between m-auto max-w-6xl items-center my-12">
+        <nav class="flex flex-col lg:flex-row gap-8 justify-between m-auto max-w-6xl items-center my-12">
             <img src="images/logo2.png" alt="">
             <ul class="flex gap-8 font-poppins">
                 <li><a href="">Home</a></li>
@@ -24,13 +24,19 @@
              font-semibold hover:cursor-pointer font-eb-garamond">Free Consultation</button>
         </nav>
 
-        <section class="max-w-6xl m-auto rounded-lg px-60 py-28 bg-[url(/images/banner.png)] bg-cover bg-center">
-            <div class="max-w-[690px] text-center">
-                <h1 class="font-eb-garamond text-7xl text-white font-extrabold mb-6">We Provide Effective Legal Solutions</h1>
-                <p class="font-poppins leading-6 text-[1rem] text-[#E7E7E7] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <input class="w-[450px] bg-white h-16 rounded-lg ps-5" type="text" placeholder="Search Your Services">
-                <button class="bg-[#B68C5A] rounded-lg px-9 py-4 text-white text-[20px]
-             font-semibold hover:cursor-pointer font-poppins ml-6">Search</button>
+        <section class="max-w-6xl m-auto rounded-lg px-6 py-16
+        sm:px-10 sm:py-20 md:px-20 md:py-28 lg:px-60 bg-[url(/images/banner.png)] bg-cover bg-center">
+
+            <div class="max-w-[690px] m-auto text-center ">
+                <h1 class="font-eb-garamond text-3xl sm:text-4xl md:text-6xl lg:7xl text-white font-extrabold mb-6">We Provide Effective Legal Solutions</h1>
+                <p class="font-poppins leading-6 text-[1rem] text-[#E7E7E7] sm:text-cyan-400 mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-2">
+                    <input class="w-full sm:w-[300px] md:w-[400px]  bg-white h-14 rounded-lg outline-none ps-5" type="text" placeholder="Search Your Services">
+                    <button class="w-full sm:w-auto bg-[#B68C5A] rounded-lg px-9 text-white text-[20px]
+                    font-semibold hover:cursor-pointer font-poppins  h-14"> 
+                        Search
+                    </button>
+                </div>
             </div>
         </section>
     </header>
@@ -171,19 +177,19 @@
                 </div>
                 <div>
                     <form class="flex flex-col m-auto gap-[30px]" action="">
-                        <input class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px]" type="text" placeholder="Your Name">
-                        <input class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px]" type="email" name="" id="" placeholder="Your email">
-                        <input class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px]" type="text" placeholder="Subject">
-                        <textarea class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px]" rows="4" name="" id="" placeholder="Your Message"></textarea>
-                        <input class="bg-[#B68C5A] py-[21px] rounded-lg w-[450px] font-poppins text-white" type="button" value="Send Message">
+                        <input class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px] outline-none" type="text" placeholder="Your Name">
+                        <input class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px] outline-none" type="email" name="" id="" placeholder="Your email">
+                        <input class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px] outline-none" type="text" placeholder="Subject">
+                        <textarea class="bg-[#F3F3F3] py-[23px] pl-[23px] rounded-lg w-[450px] outline-none" rows="4" name="" id="" placeholder="Your Message"></textarea>
+                        <input class="bg-[#B68C5A] py-[21px] rounded-lg w-[450px] font-poppins text-white outline-none" type="button" value="Send Message">
                     </form>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-[#111111] mt-[120px] py-[120px] ">
-        <div class="border-2  flex flex-col lg:flex-row md:flex-row justify-center sm:items-center items-start flex-nowrap  gap-[81px]">
+    <footer class="bg-[#111111] mt-[120px] py-[120px] flex justify-center ">
+        <div class="flex flex-col lg:flex-row md:flex-row justify-center  items-start  flex-nowrap  gap-[81px]">
             <div class="max-w-[260px]">
                 <img class="mb-8" src="images/logo.png" alt="">
                 <p class="font-poppins leading-6 text-[1rem] text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <br> alteration in some form, by injected humour.</p>
